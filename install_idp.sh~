@@ -12,7 +12,7 @@ fi
 checkhost='grep "dummyidp" /etc/hosts | wc -l'
 if [ $checkhost -eq 0]
 then
-	sed -i 's/$/ dummyidp.demo.openconext.org/g' /etc/hosts
+	sed 's/$/ dummyidp.demo.openconext.org"/g' /etc/hosts
 else
 fi
 

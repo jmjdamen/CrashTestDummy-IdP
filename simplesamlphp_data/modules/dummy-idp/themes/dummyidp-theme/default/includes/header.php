@@ -201,9 +201,9 @@ if(!empty($this->data['htmlinject']['htmlContentPre'])) {
 <!--- <img src="https://idp.diy.surfconext.nl/keyserver.png"/> --->
 <table width="100%">
 <tr>
-	<td rowspan="2"><img src="https://idp.diy.surfconext.nl/SURFconext_300x191.jpg" width="150" heigth="95"/></td>
-	<td>	<h2>Welcome to the Crash Test Dummy Identity Provider</h2>
-        	For more information on how to use this IdP, please visit the <a href="https://wiki.surfnet.nl/display/OpenConext/Home" target="_new">OpenConext Wiki
+	<td rowspan="2"><img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Testing22222.jpg" width="150" heigth="95"/></td>
+	<td>	<h2>Welcome to the OpenConext Dummy IdP</h2>
+        	For more information on how to use this IdP, please visit the <a href="https://www.openconext.org" target="_new">OpenConext Website
 	</td>
 </tr>
 </table>
