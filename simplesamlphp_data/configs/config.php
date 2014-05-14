@@ -2,7 +2,6 @@
 /* 
  * The configuration of simpleSAMLphp
  * 
- * $Id: config.php 2725 2011-01-28 08:48:53Z olavmrk $
  */
 
 $config = array (
@@ -76,8 +75,8 @@ $config = array (
 	 * The email address will be used as the recipient address for error reports, and
 	 * also as the technical contact in generated metadata.
 	 */
-	'technicalcontact_name'     => 'SURFconext-beheer',
-	'technicalcontact_email'    => 'SURFconext-beheer@surfnet.nl',
+	'technicalcontact_name'     => 'Dummy IdP Technician',
+	'technicalcontact_email'    => 'technician@dummyidp.demo.openconext.org',
 
 	/*
 	 * The timezone of the server. This option should be set to the timezone you want

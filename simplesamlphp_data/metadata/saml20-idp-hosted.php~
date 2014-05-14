@@ -32,12 +32,4 @@ $metadata['__DYNAMIC:1__'] = array(
 	),
 	*/
 
-	'OrganizationName' => array(
-   	 'en' => 'Dummy Organization',
-	),
-
-	'OrganizationURL' => 'https://dummyidp.demo.openconext.org',
-
-	
-
 );
