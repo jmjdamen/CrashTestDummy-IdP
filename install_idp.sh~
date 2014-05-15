@@ -59,7 +59,7 @@ eof
 echo "Creating empty database for import"
 mysql -uroot -prootpassw0rd -e "CREATE DATABASE dummyidp"
 echo "Import Dummy IdP database"
-mysql -uroot -prootpassw0rd dummyidp < dummy-idp-db.sql
+mysql -uroot -prootpassw0rd dummyidp < /opt/www/Dummy-IdP/db/dummy-idp-db.sql
 
 
 

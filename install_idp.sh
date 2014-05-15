@@ -57,7 +57,7 @@ eof
 
 # Import Dummy IdP database
 echo "Creating empty database for import"
-mysql -uroot -prootpassw0rd -e "CREATE DATABASE dummyidp"
+mysql -uroot -prootpassw0rd -e "CREATE DATABASE dummyidp;CREATE USER 'sqlauth_user'@'localhost' IDENTIFIED BY 'diyp@ssw0rd';GRANT ALL ON dummyidp.* TO 'sqlauth_user'@'localhost'"
 echo "Import Dummy IdP database"
 mysql -uroot -prootpassw0rd dummyidp < /opt/www/Dummy-IdP/db/dummy-idp-db.sql
 

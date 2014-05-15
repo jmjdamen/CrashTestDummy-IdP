@@ -20,7 +20,9 @@ $metadata['https://engine.demo.openconext.org/authentication/sp/metadata'] = arr
       'eduPersonEntitlement'   => 'urn:mace:dir:attribute-def:eduPersonEntitlement',
       'eduPersonAffiliation'   => 'urn:mace:dir:attribute-def:eduPersonAffiliation',
       'schacHomeOrganization'  => 'urn:mace:terena.org:attribute-def:schacHomeOrganization',
+      'isMemberOf'             => 'urn:mace:dir:attribute-def:isMemberOf',
     ),
+
   ),
 );
 
