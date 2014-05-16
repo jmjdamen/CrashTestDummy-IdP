@@ -1,4 +1,5 @@
 <?php
+
 /**
  * SAML 2.0 IdP configuration for simpleSAMLphp.
  *
@@ -48,7 +49,7 @@ $metadata['__DYNAMIC:1__'] = array(
 	  ),
 	  'OrganizationDisplayName' => 
 	  array (
-	    'en' => 'Dummy Organization',
+	    'en' => 'Dummy IdP',
 	  ),
 
 	'ContactPerson' => 
@@ -86,7 +87,7 @@ $metadata['__DYNAMIC:1__'] = array(
 		 'en' => 'Test IdP that contains Dummy users, ideal for test purposes',
 	     ),
 	     'Keywords' => array(
-		 'en' => array('dummy','idp','opencxxonext'),
+		 'en' => array('dummy','idp','openconext'),
 		 'nl' => array('dummy','idp','openconext'),
 	     ),
 	     'Logo' => array(
