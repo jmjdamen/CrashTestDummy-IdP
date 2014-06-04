@@ -47,7 +47,6 @@ fi
  # sed -e "s/_OPENCONEXT_DOMAIN_/$OC_DOMAIN/g" > \
  # /etc/httpd/conf.d/dummy-idp.conf
 
-
 # Create Dummy-IdP in Service Registry database
 # ** Enter your MySQL Root password below, remove it afterwards! **
 echo "Insert Dummy IdP entity in Service Registry"
